@@ -1,0 +1,40 @@
+header {
+    height: 56px;
+    background-color: var(--rosa-claro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid white; 
+  }
+ 
+#lupa{
+    color: white;
+    fill: white;
+}
+
+#IconoBuscador{
+   color: white;
+}
+
+#contenedorBuscadorHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buscador::placeholder {
+    color: var(--rosa-search);
+  }
+
+#buscar{
+    outline: none;
+    background-color: var(--rosa-claro);
+    border: 0cm;
+    background: 
+    linear-gradient(rgb(241, 207, 219), rgb(241, 207, 219)) center bottom 0px /calc(100% - 10px) 2px no-repeat;
+}
+
+::placeholder{
+    color:rgb(241, 207, 219) ;
+}
+  
