@@ -1,0 +1,31 @@
+.ImagenTarjeta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.alLado{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.alLado > img {
+    border-radius: 32px;
+    width: 32px ;
+    height: 32px;
+    margin-right: 16px;
+}
+
+.Haiku{
+    position: absolute;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.267);
+    font-size: 32px;
+    padding: 90px;
+}
+
+.textosuperior{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

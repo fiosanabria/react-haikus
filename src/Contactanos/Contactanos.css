@@ -1,0 +1,16 @@
+#redes{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.icono{
+    color: var(--rosa-search); 
+    font-size: 3rem;
+}
+
+.letra{
+    font-family: sans-serif;
+    color: lightslategrey;
+    text-align:center;
+}
